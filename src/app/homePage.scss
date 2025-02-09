@@ -15,13 +15,19 @@ body::-webkit-scrollbar-track {
 }
 
 html {
-  scroll-snap-type: y proximity;
-  overflow-y: scroll;
-  scroll-behavior: smooth;
+  // scroll-snap-type: y proximity;
+  // overflow-y: scroll;
+  // scroll-behavior: smooth;
 }
 
 section {
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
-  min-height: 100dvh;
+  // scroll-snap-align: start;
+  // scroll-snap-stop: always;
+  min-height: 100vh;
+  // overflow: hidden;
 }
+
+// body{
+//   overflow: hidden;
+//   width: 100;
+// }

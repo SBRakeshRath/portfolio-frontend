@@ -7,18 +7,23 @@
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-    h1{
-        font-size: 2rem;
-        text-align: center;
-        color: #fff;
+    h1 {
+      font-size: 2rem;
+      text-align: center;
+      color: #fff;
     }
     .projectCardWrapper {
       display: flex;
       align-items: center;
       justify-content: center;
       column-gap: 25px;
+    }
+    .projectCardWrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
       .projectCard {
-        width: 300px;
+        max-width: 300px;
         .image {
           aspect-ratio: 21/9;
           position: relative;
@@ -106,6 +111,24 @@
           background-color: transparent;
           outline: 2px solid #fbce33;
           color: #fbce33;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .projectComponent {
+    padding: 30px 20px;
+
+    .projectContainerWrapper {
+      .projectCardWrapper {
+        flex-direction: column;
+        row-gap: 20px;
+        .projectCardWrap {
+          .projectCard {
+            width: 90%;
+          }
         }
       }
     }

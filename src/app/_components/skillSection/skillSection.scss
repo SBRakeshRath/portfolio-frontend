@@ -1,61 +1,73 @@
-.skillSection{
-    background-color: #F5562A;
+.skillSection {
+  background-color: #f5562a;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  overflow: hidden;
+  .row {
     display: flex;
-    flex-direction: column;
+    // justify-content: space-between;
     gap: 20px;
-    padding: 20px;
+    width: 100%;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
-    overflow: hidden ;
-    .row{
+    h1 {
+      width: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #dbff00;
+      font-size: 2.5rem;
+      font-weight: 800;
+    }
+  }
+
+  .skillCards {
+    width: 300px;
+    // height: 300px;
+    padding: 20px 20px;
+    background-color: #f2d5bb;
+    border-radius: 10px;
+    h3 {
+      text-align: center;
+      // padding: 8px 0px;
+      padding-top: 0px;
+      padding-bottom: 25px;
+    }
+
+    .skillsContainer {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+      row-gap: 20px;
+      .skill {
         display: flex;
-        // justify-content: space-between;
-        gap: 20px;
-        width: 100%;
+        flex-direction: column;
         align-items: center;
-        justify-content: center;
-        h1{
-            width: 300px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color:#DBFF00;
-            font-size: 2.5rem;
-            font-weight: 800;
+        img {
+          width: 50px;
         }
+      }
     }
+  }
+}
 
-
-    .skillCards{
-        width:300px;
-        // height: 300px;
-        padding: 20px 20px;
-        background-color: #F2D5BB;
-        border-radius: 10px;
-        h3{
-            text-align: center;
-            // padding: 8px 0px;
-            padding-top: 0px;
-            padding-bottom: 25px;
-            
-        }
-
-        .skillsContainer{
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-            gap: 8px;
-            row-gap: 20px;
-            .skill{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                img{
-                    width: 50px;
-                }
-
-            }
-        }
+@media screen and (max-width: 950px) {
+  .skillSection {
+    padding: 25px 10px;
+    .row {
+      flex-direction: column;
     }
+    .row:first-child {
+      h1 {
+        order: -1;
+        padding-bottom: 25px;
+      }
+    }
+  }
 }

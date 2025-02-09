@@ -3,6 +3,9 @@
   .text {
     font-size: 6.5rem;
     font-weight: bolder;
+    img {
+      max-width: 100%;
+    }
   }
 
   p {
@@ -46,6 +49,33 @@
         background-color: #fbce33;
         color: #000;
         outline: none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 950px) {
+  .textComponent {
+    .buttonContainer {
+      .contactLink {
+        background-color: #f5562a;
+        color: #fff;
+
+        &:hover {
+          background-color: transparent;
+          outline: 2px solid #f5562a;
+          color: #f5562a;
+        }
+      }
+      .resumeLink {
+        background-color: transparent;
+        outline: 2px solid #f5562a;
+        color: #f5562a;
+        &:hover {
+          background-color: #f5562a;
+          color: #000;
+          outline: none;
+        }
       }
     }
   }

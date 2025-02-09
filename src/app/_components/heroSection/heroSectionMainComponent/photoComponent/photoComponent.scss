@@ -1,6 +1,7 @@
 .photoComponentWrapper{
     // width: 40%;
     overflow: hidden;
+    transform: scale(0.8);
     .row:first-child,.row:last-child{
         display: flex;
         justify-content: space-between;

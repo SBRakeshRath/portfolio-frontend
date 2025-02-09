@@ -20,7 +20,7 @@ export default function ProjectsComponent() {
         <h1>Projects</h1>
         <div className="projectCardWrapper">
           <motion.div
-            className="projectCardWrapper"
+            className="projectCardWrap"
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ ...transition }}
@@ -42,7 +42,7 @@ export default function ProjectsComponent() {
             />
           </motion.div>
           <motion.div
-            className="projectCardWrapper"
+            className="projectCardWrap"
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ ...transition, 
@@ -66,7 +66,7 @@ export default function ProjectsComponent() {
             />
           </motion.div>
           <motion.div
-            className="projectCardWrapper"
+            className="projectCardWrap"
             initial={{ opacity: 0, x: -100 }}
             whileInView={{ opacity: 1, x: 0 }}
             transition={{ ...transition, delay: 0.3 }}

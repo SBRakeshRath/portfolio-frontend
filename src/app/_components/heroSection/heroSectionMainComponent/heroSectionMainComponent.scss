@@ -1,7 +1,14 @@
-.heroSectionMainComponent{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-grow: 1;
-    
+.heroSectionMainComponent {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+@media screen and (max-width: 950px) {
+    .heroSectionMainComponent{
+        flex-direction: column-reverse;
+        row-gap: 40px;
+    }
 }
