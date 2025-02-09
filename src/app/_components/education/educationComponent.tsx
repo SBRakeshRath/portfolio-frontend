@@ -5,7 +5,7 @@ import { motion } from "motion/react";
 
 export default function EducationComponent() {
   return (
-    <section className="educationComponent">
+    <section className="educationComponent" id="education">
       <div className="educationComponentWrapper">
         <div className="col">
           <motion.div

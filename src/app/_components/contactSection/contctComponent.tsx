@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
-import "./contactComponent.scss"
+import "./contactComponent.scss";
 
 export default function ContactComponent() {
   return (
-    <section className="ContactSection">
+    <section className="ContactSection" id = "contact">
       <div className="contactSectionWrapper">
         <h1>Contact me</h1>
         <div className="contactDetailsAndFormWrapper">
@@ -12,7 +12,7 @@ export default function ContactComponent() {
             <div className="email">work.sbrakeshrath@gmail.com</div>
             <div className="phoneNumber">+91 9337691832</div>
             <div className="socialLinks">
-              <Link href="https://www.linkedin.com/in/sbrakeshrath/">
+              <Link href="https://in.linkedin.com/in/s-b-rakesh-rath-0bb336215">
                 <Image
                   src="https://img.icons8.com/color/48/000000/linkedin.png"
                   alt="linkedin"
@@ -20,7 +20,7 @@ export default function ContactComponent() {
                   height={48}
                 />
               </Link>
-              <Link href="https://instgram.com/s.b.rakeshrath">
+              <Link href="https://www.instagram.com/s.b.rakeshrath/">
                 <Image
                   src="https://img.icons8.com/color/48/000000/instagram-new.png"
                   alt="instagram"
@@ -28,7 +28,7 @@ export default function ContactComponent() {
                   height={48}
                 />
               </Link>
-              <Link href="https://github.com/sbrakeshrath">
+              <Link href="https://github.com/SBRakeshRath">
                 <Image
                   src="https://img.icons8.com/color/48/000000/github--v1.png"
                   alt="github"
