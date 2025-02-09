@@ -1,0 +1,93 @@
+.ContactSection {
+  background-color: #183957;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .contactSectionWrapper {
+    h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      margin-bottom: 30px;
+      text-align: center;
+      color: #ffca15;
+    }
+
+    .contactDetailsAndFormWrapper {
+      display: flex;
+      column-gap: 25px;
+    }
+    .contactDetails {
+      width: 350px;
+      max-width: 100%;
+      padding: 15px;
+      background-color: #ffca15;
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+      justify-content: center;
+      border-radius: 5px;
+      .email,
+      .phoneNumber {
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 700;
+      }
+      .socialLinks {
+        display: flex;
+        width: 100%;
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+        a {
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+      }
+    }
+    .contactForm {
+      display: flex;
+      flex-direction: column;
+      width: 500px;
+      max-width: 100%;
+      padding: 15px;
+      background-color: #ffca15;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      input {
+        outline: none;
+        border: none;
+        padding: 15px 20px;
+        background-color: #183957;
+        border-radius: 10px;
+        color: #fff;
+      }
+      textarea {
+        outline: none;
+        border: none;
+        padding: 15px 20px;
+        background-color: #183957;
+        border-radius: 10px;
+        color: #fff;
+        resize: none;
+      }
+      input[type="submit"] {
+        background-color: #ffca15;
+        color: #183957;
+        outline: 2px solid #183957;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.3s;
+        &:hover {
+          background-color: #183957;
+          color: #ffca15;
+        }
+      }
+    }
+  }
+}

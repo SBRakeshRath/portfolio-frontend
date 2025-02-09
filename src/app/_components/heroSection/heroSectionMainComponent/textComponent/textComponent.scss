@@ -1,0 +1,52 @@
+.textComponent {
+  // width: 60%;
+  .text {
+    font-size: 6.5rem;
+    font-weight: bolder;
+  }
+
+  p {
+    background: -webkit-linear-gradient(to right, #f5562a, #dbff00);
+    background: linear-gradient(to right, #f5562a, #dbff00);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 2px;
+  }
+
+  .buttonContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    .contactLink,
+    .resumeLink {
+      padding: 10px 20px;
+      border-radius: 5px;
+    }
+    .contactLink {
+      background-color: #fbce33;
+      color: #000;
+
+      &:hover {
+        background-color: transparent;
+        outline: 2px solid #fbce33;
+        color: #fbce33;
+      }
+    }
+    .resumeLink {
+      background-color: transparent;
+      outline: 2px solid #fbce33;
+      color: #fbce33;
+      &:hover {
+        background-color: #fbce33;
+        color: #000;
+        outline: none;
+      }
+    }
+  }
+}

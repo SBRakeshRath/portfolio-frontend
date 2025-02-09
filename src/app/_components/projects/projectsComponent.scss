@@ -1,0 +1,113 @@
+.projectComponent {
+  background-color: #5845ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .projectContainerWrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    h1{
+        font-size: 2rem;
+        text-align: center;
+        color: #fff;
+    }
+    .projectCardWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      column-gap: 25px;
+      .projectCard {
+        width: 300px;
+        .image {
+          aspect-ratio: 21/9;
+          position: relative;
+
+          img {
+            width: 100%;
+            object-fit: cover;
+            object-position: center;
+          }
+        }
+        .projectInfo {
+          padding: 10px;
+          background-color: #f5562a;
+          text-align: center;
+          h3 {
+            color: #fff;
+            margin-bottom: 10px;
+          }
+          .description {
+            color: #f4b5a3;
+          }
+          .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-items: center;
+            justify-content: center;
+            padding: 10px 0px;
+            span {
+              color: #000;
+              padding: 5px 10px;
+              background-color: #f29c6b;
+              font-size: 0.7rem;
+            }
+          }
+          .buttons {
+            display: flex;
+            flex-flow: row-reverse;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0px;
+            padding-bottom: 10px;
+            a {
+              text-decoration: none;
+              padding: 10px 20px;
+              border-radius: 5px;
+            }
+            a:first-child {
+              background-color: #fbce33;
+              color: #000;
+
+              &:hover {
+                background-color: transparent;
+                outline: 2px solid #fbce33;
+                color: #fbce33;
+              }
+            }
+            a:last-child {
+              background-color: transparent;
+              outline: 2px solid #fbce33;
+              color: #fbce33;
+              &:hover {
+                background-color: #fbce33;
+                color: #000;
+                outline: none;
+              }
+            }
+          }
+        }
+      }
+    }
+    .buttonWrapper {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .allProjectButton {
+        text-decoration: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        background-color: #fbce33;
+        color: #000;
+
+        &:hover {
+          background-color: transparent;
+          outline: 2px solid #fbce33;
+          color: #fbce33;
+        }
+      }
+    }
+  }
+}

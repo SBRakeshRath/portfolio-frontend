@@ -1,0 +1,9 @@
+$grad-color-1: #fbce33;
+$grad-color-2: #d22178;
+
+.heroSection {
+  background: $grad-color-2;
+  background: linear-gradient(135deg, $grad-color-2 0%, $grad-color-1 100%);
+  display: flex;
+  flex-direction: column;
+}

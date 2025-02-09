@@ -1,0 +1,39 @@
+.photoComponentWrapper{
+    // width: 40%;
+    overflow: hidden;
+    .row:first-child,.row:last-child{
+        display: flex;
+        justify-content: space-between;
+    }
+    img{
+        aspect-ratio: 1/1;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        margin: auto;
+    }
+    .image-row{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 80px;
+    }
+    .box{
+        width: 80px;
+        height: 80px;
+        background-color: #5845FF;
+    }
+    .row:first-child .box:first-child{
+        background-color: #5845FF;
+    }
+    .row:first-child .box:last-child{
+        background-color: #F5562A;
+    }
+    .row:last-child .box:first-child{
+        background-color: #FBCE33;
+    }
+    .row:last-child .box:last-child{
+        background-color: #183957;
+    }
+}
