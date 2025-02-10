@@ -30,7 +30,6 @@ export async function POST(req: NextRequest) {
       }
     );
   }
-  console.log(body.email);
   if (bodySchema.safeParse(body).success === false) {
     return NextResponse.json(
       {
@@ -44,7 +43,6 @@ export async function POST(req: NextRequest) {
 
   const { name, email, number, subject, message } = body;
 
-  console.log(name, email, number, subject, message);
 
   try {
     if (!(await sendContactEmail(email, name, subject, number, message))) {
