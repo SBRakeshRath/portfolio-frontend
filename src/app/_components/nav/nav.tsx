@@ -14,7 +14,7 @@ export default function NavBar() {
         <div className="left"></div>
         <div className="right">
           <Link href="/">Home</Link>
-          <Link href="/contact">Contact</Link>
+          <Link href="/#contact">Contact</Link>
           <Link href="/about">About</Link>
           <Link href="/skill">Skill</Link>
           <Link href="/projects">Projects</Link>
@@ -39,7 +39,7 @@ export default function NavBar() {
 
       <motion.nav className="mobileNav" ref={mobileNavRef}>
         <Link href="/">Home</Link>
-        <Link href="/contact">Contact</Link>
+        <Link href="/#contact">Contact</Link>
         <Link href="/about">About</Link>
         <Link href="/skill">Skill</Link>
         <Link href="/projects">Projects</Link>
