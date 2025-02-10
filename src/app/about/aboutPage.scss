@@ -19,7 +19,7 @@
       transform-origin: center;
 
       $animationDuration: 1s;
-      animation: rotateClockWise $animationDuration linear infinite;
+      // animation: rotateClockWise $animationDuration linear infinite;
 
       .imageWrapper {
         width: 290px;
@@ -33,7 +33,7 @@
         z-index: 9;
         transform-origin: center;
 
-        animation: rotateAntiClockwise $animationDuration linear infinite;
+        // animation: rotateAntiClockwise $animationDuration linear infinite;
         img {
           width: 100%;
           height: 100%;
