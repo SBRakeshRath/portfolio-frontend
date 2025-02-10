@@ -1,0 +1,12 @@
+.projectsPage {
+  background-color: #5845ff;
+
+  .projectsCardContainer {
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}
