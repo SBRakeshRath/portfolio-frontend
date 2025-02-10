@@ -3,8 +3,9 @@ import ejs from "ejs";
 import { fileURLToPath } from "url";
 import { dirname } from "path";
 
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
+// const __filename = fileURLToPath(import.meta.url);
+const __dirname = process.cwd() + "/email";
+console.log(__dirname)
 
 const transporter = nodemailer.createTransport({
   service: "gmail",
