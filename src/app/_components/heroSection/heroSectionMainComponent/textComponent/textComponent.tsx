@@ -11,7 +11,7 @@ export default function TextComponent() {
         <Image width="500" src={fullStackText} alt="Full Stack Developer" />
       </div>
       <div className="buttonContainer">
-        <Link href="/#contact" className="contactLink">
+        <Link href="/contact" className="contactLink">
           Contact me
         </Link>
         <a href={resumeLink} className="resumeLink" download>

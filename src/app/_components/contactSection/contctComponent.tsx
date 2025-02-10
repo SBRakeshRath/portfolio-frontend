@@ -1,10 +1,11 @@
 import Image from "next/image";
 import Link from "next/link";
 import "./contactComponent.scss";
+import ContactForm from "./contactForm";
 
 export default function ContactComponent() {
   return (
-    <section className="ContactSection" id = "contact">
+    <section className="ContactSection" id="contact">
       <div className="contactSectionWrapper">
         <h1>Contact me</h1>
         <div className="contactDetailsAndFormWrapper">
@@ -38,35 +39,7 @@ export default function ContactComponent() {
               </Link>
             </div>
           </div>
-          <form className="contactForm">
-            <input type="text" name="name" id="name" placeholder="Enter Name" />
-            <input
-              type="email"
-              name="email"
-              id="email"
-              placeholder="Enter Email"
-            />
-            <input
-              type="number"
-              name="number"
-              id="number"
-              placeholder="Enter Number"
-            />
-            <input
-              type="text"
-              name="subject"
-              id="subject"
-              placeholder="Enter Subject"
-            />
-            <textarea
-              name="message"
-              id="message"
-              placeholder="Enter Message"
-              // 4 row visible
-              rows={4}
-            ></textarea>
-            <input type="submit" value="Send" />
-          </form>
+          <ContactForm />
         </div>
       </div>
     </section>

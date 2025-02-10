@@ -58,7 +58,8 @@
       flex-direction: column;
       gap: 10px;
 
-      input {
+      input,
+      button {
         outline: none;
         border: none;
         padding: 15px 20px;
@@ -75,7 +76,8 @@
         color: #fff;
         resize: none;
       }
-      input[type="submit"] {
+      input[type="submit"],
+      button {
         background-color: #ffca15;
         color: #183957;
         outline: 2px solid #183957;
@@ -85,6 +87,19 @@
         &:hover {
           background-color: #183957;
           color: #ffca15;
+        }
+      }
+      button > img {
+        // outline: none;
+        animation: circular 0.5s linear infinite;
+        scale: 1.5;
+      }
+      @keyframes circular {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
         }
       }
     }
