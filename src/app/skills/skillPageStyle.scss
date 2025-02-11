@@ -1,0 +1,40 @@
+.skillsPage{
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: #f5562a;
+
+    .skillCardsContainer{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        padding: 0 2rem;
+        max-width: 1200px;
+        gap: 2rem;
+        position: relative;
+
+        .skillCardComponent{
+            display: flex;
+            align-items: center;
+            row-gap: 15px;
+            flex-direction: column;
+            img{
+                padding: 10px;
+                background-color: #f2d5bb;
+            }
+            p{
+                // font-size: 1.5rem;
+                font-weight: 600;
+                color: #f2d5bb;
+            }
+        }
+    }
+
+    footer{
+        border-top: 2px solid #ffca15;
+    }
+}

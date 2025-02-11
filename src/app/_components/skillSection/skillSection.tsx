@@ -35,7 +35,7 @@ export default function SkillSection() {
           skillsArray={[
             {
               name: "GCP",
-              icon: "https://img.icons8.com/color/48/000000/google-cloud-platform.png",
+              icon: "https://img.icons8.com/color/48/google-cloud.png",
             },
             {
               name: "Netlify",
@@ -77,8 +77,8 @@ export default function SkillSection() {
               icon: "https://img.icons8.com/officel/80/react.png",
             },
             {
-              name: "Next JS Basics",
-              icon: "https://img.icons8.com/color/48/000000/next.png",
+              name: "Next JS",
+              icon: "https://img.icons8.com/color/48/nextjs.png",
             },
           ]}
         />
