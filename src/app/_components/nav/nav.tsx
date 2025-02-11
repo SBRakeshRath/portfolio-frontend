@@ -16,7 +16,7 @@ export default function NavBar() {
           <Link href="/">Home</Link>
           <Link href="/contact">Contact</Link>
           <Link href="/about">About</Link>
-          <Link href="/skill">Skill</Link>
+          <Link href="/skills">Skill</Link>
           <Link href="/projects">Projects</Link>
           <a href={resumeLink} className="resumeButton download">
             Resume
@@ -41,7 +41,7 @@ export default function NavBar() {
         <Link href="/">Home</Link>
         <Link href="/contact">Contact</Link>
         <Link href="/about">About</Link>
-        <Link href="/skill">Skill</Link>
+        <Link href="/skills">Skill</Link>
         <Link href="/projects">Projects</Link>
       </motion.nav>
     </header>
