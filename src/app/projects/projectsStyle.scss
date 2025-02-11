@@ -1,5 +1,9 @@
 .projectsPage {
   background-color: #5845ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
 
   .projectsCardContainer {
     padding: 20px 10px;
