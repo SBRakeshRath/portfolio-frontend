@@ -15,6 +15,9 @@ header {
         &:hover {
           color: #fbce33;
         }
+       &.activeLink {
+          color: #fbce33;
+        } 
       }
       .resumeButton {
         padding: 10px 20px;

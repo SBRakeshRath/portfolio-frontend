@@ -5,19 +5,41 @@ import { resumeLink } from "../../../../configs/fronted.env";
 import Image from "next/image";
 import { motion } from "motion/react";
 import { useRef } from "react";
+import { usePathname, useRouter } from "next/navigation";
 
 export default function NavBar() {
+  const path = usePathname();
+
   const mobileNavRef = useRef<HTMLDivElement>(null);
   return (
     <header>
       <nav>
         <div className="left"></div>
         <div className="right">
-          <Link href="/">Home</Link>
-          <Link href="/contact">Contact</Link>
-          <Link href="/about">About</Link>
-          <Link href="/skills">Skill</Link>
-          <Link href="/projects">Projects</Link>
+          <Link className={path === "/" ? "activeLink" : ""} href="/">
+            Home
+          </Link>
+          <Link
+            href="/contact"
+            className={path === "/contact" ? "activeLink" : ""}
+          >
+            Contact
+          </Link>
+          <Link href="/about" className={path === "/about" ? "activeLink" : ""}>
+            About
+          </Link>
+          <Link
+            href="/skills"
+            className={path === "/skills" ? "activeLink" : ""}
+          >
+            Skill
+          </Link>
+          <Link
+            href="/projects"
+            className={path === "/projects" ? "activeLink" : ""}
+          >
+            Projects
+          </Link>
           <a href={resumeLink} className="resumeButton download">
             Resume
           </a>
@@ -38,11 +60,27 @@ export default function NavBar() {
       </nav>
 
       <motion.nav className="mobileNav" ref={mobileNavRef}>
-        <Link href="/">Home</Link>
-        <Link href="/contact">Contact</Link>
-        <Link href="/about">About</Link>
-        <Link href="/skills">Skill</Link>
-        <Link href="/projects">Projects</Link>
+        <Link href="/" className={path === "/" ? "activeLink" : ""}>
+          Home
+        </Link>
+        <Link
+          href="/contact"
+          className={path === "/contact" ? "activeLink" : ""}
+        >
+          Contact
+        </Link>
+        <Link href="/about" className={path === "/about" ? "activeLink" : ""}>
+          About
+        </Link>
+        <Link href="/skills" className={path === "/skills" ? "activeLink" : ""}>
+          Skill
+        </Link>
+        <Link
+          href="/projects"
+          className={path === "/projects" ? "activeLink" : ""}
+        >
+          Projects
+        </Link>
       </motion.nav>
     </header>
   );
