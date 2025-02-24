@@ -1,1 +1,1 @@
-export const resumeLink = "https://storage.cloud.google.com/sbrr-portfolio-public-access-assets/S%20B%20Rakesh%20Rath_Resume.pdf"
+export const resumeLink = "https://drive.google.com/file/d/1l_uN32j-PKJb-3cY3NPr-iorIz52Pu1G/view?usp=drive_link"
