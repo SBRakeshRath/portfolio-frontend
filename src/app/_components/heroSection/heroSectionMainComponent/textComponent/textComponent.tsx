@@ -8,7 +8,7 @@ export default function TextComponent() {
   return (
     <div className="textComponent">
       <div className="text">
-        <Image width="500" src={fullStackText} alt="Full Stack Developer" />
+        <Image width="500" src={fullStackText} alt="Full Stack Developer" priority />
       </div>
       <div className="buttonContainer">
         <Link href="/contact" className="contactLink">

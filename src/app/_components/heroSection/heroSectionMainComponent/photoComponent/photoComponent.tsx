@@ -18,6 +18,7 @@ export default function PhotoComponent() {
           alt="profile picture"
           width={200}
           height={200}
+          priority
         />
       </div>
       <div className="row">

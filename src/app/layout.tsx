@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import { Roboto } from "next/font/google";
 export async function generateMetadata(): Promise<Metadata> {
   const title = "Portfolio of SBRR";
 
@@ -30,6 +31,14 @@ export async function generateMetadata(): Promise<Metadata> {
 
 import "./globals.css";
 
+const roboto = Roboto({
+  weight: ["400", "700", "900"],
+  // style: "italic",
+  subsets: ["latin"],
+  variable: "--font-roboto",
+  // display: "swap",
+});
+
 export default function RootLayout({
   children,
 }: {
@@ -37,7 +46,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className={roboto.className}>{children}</body>
     </html>
   );
 }
