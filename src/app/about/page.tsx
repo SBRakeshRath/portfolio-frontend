@@ -11,7 +11,7 @@ export default function About() {
       <div className="aboutMeSection">
         <div className="image">
           <div className="imageWrapper">
-            <Image src={aboutPageProfilePhoto} alt="profile photo" fill />
+            <Image src={aboutPageProfilePhoto} alt="profile photo" fill priority />
           </div>
         </div>
         <div className="text">
