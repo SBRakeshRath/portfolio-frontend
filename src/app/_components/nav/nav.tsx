@@ -40,6 +40,12 @@ export default function NavBar() {
           >
             Projects
           </Link>
+          <Link
+            href="/dsa"
+            className={path === "/dsa" ? "activeLink" : ""}
+          >
+            Dsa
+          </Link>
           <a href={resumeLink} className="resumeButton download">
             Resume
           </a>
@@ -80,6 +86,12 @@ export default function NavBar() {
           className={path === "/projects" ? "activeLink" : ""}
         >
           Projects
+        </Link>
+        <Link
+          href="/dsa"
+          className={path === "/dsa" ? "activeLink" : ""}
+        >
+          Dsa
         </Link>
       </motion.nav>
     </header>
