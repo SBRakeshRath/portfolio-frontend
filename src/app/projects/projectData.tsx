@@ -3,6 +3,7 @@ import dloImg from "./assets/dlo-image.png";
 import gngImg from "./assets/gng-image.png";
 import ovdImg from "./assets/ovd-image.png";
 import shooterGameImg from "./assets/shooterGame.png";
+import pixiquizImg from "./assets/pixquiz-image.png"
 
 const projectData: {
   projectTittle: string;
@@ -27,6 +28,15 @@ const projectData: {
     ],
     link: "https://ovd.pixismith.com",
     github: "https://github.com/SBRakeshRath/online-video-downloader",
+  },
+  {
+    projectTittle: "PixiQuiz",
+    projectImage: pixiquizImg,
+    description:
+      "An AI powered quiz app, where you can generate quizzes on any topic you can think of.",
+    tags: ["Next JS", "Node JS", "Gemini AI", "GPT wrapper", "Vercel"],
+    link: "https://pixiquiz.pixismith.com",
+    github: "https://github.com/SBRakeshRath/pixi-quiz",
   },
   {
     projectTittle: "Guessing Number Game",
