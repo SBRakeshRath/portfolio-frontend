@@ -1,7 +1,7 @@
 import { StaticImageData } from "next/image";
 import dloImg from "./assets/dlo-image.png";
-import gngImg from "./assets/gng-image.png";
-import ovdImg from "./assets/ovd-image.png";
+import gngImg from "./assets/gng-Image.webp";
+import ovdImg from "./assets/ovd-Image.webp";
 import shooterGameImg from "./assets/shooterGame.png";
 import pixiquizImg from "./assets/pixquiz-image.png"
 
