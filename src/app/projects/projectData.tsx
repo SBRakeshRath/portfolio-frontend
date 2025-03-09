@@ -1,5 +1,5 @@
 import { StaticImageData } from "next/image";
-import dloImg from "./assets/dlo-image.png";
+import dloImg from "./assets/dlo-Image.webp";
 import gngImg from "./assets/gng-Image.webp";
 import ovdImg from "./assets/ovd-Image.webp";
 import shooterGameImg from "./assets/shooterGame.png";
