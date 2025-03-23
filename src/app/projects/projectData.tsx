@@ -3,7 +3,8 @@ import dloImg from "./assets/dlo-Image.webp";
 import gngImg from "./assets/gng-Image.webp";
 import ovdImg from "./assets/ovd-Image.webp";
 import shooterGameImg from "./assets/shooterGame.png";
-import pixiquizImg from "./assets/pixquiz-image.png"
+import pixiquizImg from "./assets/pixquiz-image.png";
+import portfolioImage from "./assets/portfolioProject-image.webp";
 
 const projectData: {
   projectTittle: string;
@@ -70,6 +71,15 @@ const projectData: {
     ],
     link: "https://db-less-otp.netlify.app/",
     github: "https://github.com/SBRakeshRath/DB-less-OTP-Frontend",
+  },
+  {
+    projectTittle: "Portfolio Project",
+    projectImage: portfolioImage,
+    description:
+      "I made this portfolio to show you my skills and all the projects I've completed so far.",
+    tags: ["Next JS", "SCSS", "TypeScript", "Vercel", "Chart JS (little bit)"],
+    link: "https://pixismith.com/",
+    github: "https://github.com/SBRakeshRath/portfolio-frontend",
   },
   {
     projectTittle: "Shooter Game",
