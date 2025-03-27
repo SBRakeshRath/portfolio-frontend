@@ -29,12 +29,14 @@ export default function ProjectCard(props: propsType) {
           ))}
         </div>
         <div className="buttons">
-          <a href={props.link} target="_blank" rel="noreferrer">
+          <a href={props.link} target="_blank" rel="noreferrer" className="visitLink">
             Visit
           </a>
-          <a href={props.github} target="_blank" rel="noreferrer">
-            Github
-          </a>
+          {props.github === "" ? null : (
+            <a href={props.github} target="_blank" rel="noreferrer" className="githubLink">
+              Github
+            </a>
+          )}
         </div>
       </div>
     </div>

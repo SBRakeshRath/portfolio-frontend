@@ -48,7 +48,7 @@
         padding: 10px 20px;
         border-radius: 5px;
       }
-      a:first-child {
+      .visitLink {
         background-color: #fbce33;
         color: #000;
 
@@ -58,7 +58,7 @@
           color: #fbce33;
         }
       }
-      a:last-child {
+      .githubLink {
         background-color: transparent;
         outline: 2px solid #fbce33;
         color: #fbce33;

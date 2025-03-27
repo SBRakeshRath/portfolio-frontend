@@ -5,6 +5,8 @@ import ovdImg from "./assets/ovd-Image.webp";
 import shooterGameImg from "./assets/shooterGame.png";
 import pixiquizImg from "./assets/pixquiz-image.png";
 import portfolioImage from "./assets/portfolioProject-image.webp";
+import bharatBazzarImage from "./assets/bharatbazaar-Image.webp";
+import sevaSangamImage from "./assets/sevaSangam-Image.webp";
 
 const projectData: {
   projectTittle: string;
@@ -31,6 +33,24 @@ const projectData: {
     github: "https://github.com/SBRakeshRath/online-video-downloader",
   },
   {
+    projectTittle: "Bharat Bazar",
+    projectImage: bharatBazzarImage,
+    description:
+      "Platform for business registration and user search functionality, developed during Rankshell internship.",
+    tags: ["Real World","MERN", "Razorpay Payment", "GCP", "Client Interaction"],
+    link: "https://bharatbazzar.co/",
+    github: "",
+  },
+  {
+    projectTittle: "Seva Sangam",
+    projectImage: sevaSangamImage,
+    description:
+      "A digital platform for temple donations across India, Developed during Rankshell internship.",
+    tags: ["Real World","MERN", "Razorpay Payment", "GCP", "Client Interaction"],
+    link: "https://www.sevasangam.com/",
+    github: "",
+  },
+  {
     projectTittle: "PixiQuiz",
     projectImage: pixiquizImg,
     description:
@@ -39,6 +59,7 @@ const projectData: {
     link: "https://pixiquiz.pixismith.com",
     github: "https://github.com/SBRakeshRath/pixi-quiz",
   },
+  
   {
     projectTittle: "Guessing Number Game",
     projectImage: gngImg,
