@@ -29,27 +29,27 @@ const projectData: {
       "Firebase",
       "FireStore",
     ],
-    link: "https://ovd.pixismith.com",
+    link: "",
     github: "https://github.com/SBRakeshRath/online-video-downloader",
   },
-  {
-    projectTittle: "Bharat Bazar",
-    projectImage: bharatBazzarImage,
-    description:
-      "Platform for business registration and user search functionality, developed during Rankshell internship.",
-    tags: ["Real World","MERN", "Razorpay Payment", "GCP", "Client Interaction"],
-    link: "https://bharatbazzar.co/",
-    github: "",
-  },
-  {
-    projectTittle: "Seva Sangam",
-    projectImage: sevaSangamImage,
-    description:
-      "A digital platform for temple donations across India, Developed during Rankshell internship.",
-    tags: ["Real World","MERN", "Razorpay Payment", "GCP", "Client Interaction"],
-    link: "https://www.sevasangam.com/",
-    github: "",
-  },
+  // {
+  //   projectTittle: "Bharat Bazar",
+  //   projectImage: bharatBazzarImage,
+  //   description:
+  //     "Platform for business registration and user search functionality, developed during Rankshell internship.",
+  //   tags: ["Real World","MERN", "Razorpay Payment", "GCP", "Client Interaction"],
+  //   link: "https://bharatbazzar.co/",
+  //   github: "",
+  // },
+  // {
+  //   projectTittle: "Seva Sangam",
+  //   projectImage: sevaSangamImage,
+  //   description:
+  //     "A digital platform for temple donations across India, Developed during Rankshell internship.",
+  //   tags: ["Real World","MERN", "Razorpay Payment", "GCP", "Client Interaction"],
+  //   link: "https://www.sevasangam.com/",
+  //   github: "",
+  // },
   {
     projectTittle: "PixiQuiz",
     projectImage: pixiquizImg,
