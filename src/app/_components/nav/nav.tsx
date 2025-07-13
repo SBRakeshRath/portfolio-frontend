@@ -41,6 +41,12 @@ export default function NavBar() {
             Projects
           </Link>
           <Link
+            href="https://medium.com/@sbrakeshrath"
+            className={path === "https://medium.com/@sbrakeshrath" ? "activeLink" : ""}
+          >
+            Blog
+          </Link>
+          <Link
             href="/dsa"
             className={path === "/dsa" ? "activeLink" : ""}
           >

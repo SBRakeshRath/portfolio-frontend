@@ -6,6 +6,7 @@ import shooterGameImg from "./assets/shooterGame.png";
 import pixiquizImg from "./assets/pixquiz-image.png";
 import portfolioImage from "./assets/portfolioProject-image.webp";
 import bharatBazzarImage from "./assets/bharatbazaar-Image.webp";
+import hindustanImage from "./assets/hindustan-Image.webp";
 import sevaSangamImage from "./assets/sevaSangam-Image.webp";
 
 const projectData: {
@@ -16,6 +17,24 @@ const projectData: {
   link: string;
   github: string;
 }[] = [
+   {
+    projectTittle: "PixiQuiz",
+    projectImage: pixiquizImg,
+    description:
+      "An AI powered quiz app, where you can generate quizzes on any topic you can think of.",
+    tags: ["Next JS", "Node JS", "Gemini AI", "GPT wrapper", "Vercel"],
+    link: "https://pixiquiz.pixismith.com",
+    github: "https://github.com/SBRakeshRath/pixi-quiz",
+  },
+  {
+    projectTittle: "Hindustan Services",
+    projectImage: hindustanImage,
+    description:
+      "Platform for business registration and search functionality, along with PaymentGateway Integration.",
+    tags: ["Full Stack","MERN", "Razorpay Payment", "GCP", "Authentication"],
+    link: "https://hindustan-services-448314.web.app/",
+    github: "https://github.com/SBRakeshRath/hindustan-servieces-frontend",
+  },
   {
     projectTittle: "Youtube Video Downloader",
     projectImage: ovdImg,
@@ -32,15 +51,6 @@ const projectData: {
     link: "",
     github: "https://github.com/SBRakeshRath/online-video-downloader",
   },
-  // {
-  //   projectTittle: "Bharat Bazar",
-  //   projectImage: bharatBazzarImage,
-  //   description:
-  //     "Platform for business registration and user search functionality, developed during Rankshell internship.",
-  //   tags: ["Real World","MERN", "Razorpay Payment", "GCP", "Client Interaction"],
-  //   link: "https://bharatbazzar.co/",
-  //   github: "",
-  // },
   // {
   //   projectTittle: "Seva Sangam",
   //   projectImage: sevaSangamImage,
